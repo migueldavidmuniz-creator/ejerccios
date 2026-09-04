@@ -1,0 +1,7 @@
+print("hola amigo bienvenido , soy tu calculadora de masa corporal (IMC) , por favor ingresa tus datos para poder calcular tu indice de masa corporal")
+kilogramos = float(input("ingresa tu peso en kilogramos : " )) # type: ignore
+
+metros = float(input("ingresa tu estatura en metros : " )) # type: ignore
+
+imc = kilogramos / (metros ** 2)
+print(f"tu indice de masa corporal es : {imc:.2f}")

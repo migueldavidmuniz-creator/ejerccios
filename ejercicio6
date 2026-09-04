@@ -1,0 +1,7 @@
+print("Hola , quiere saber si un años es bisietos ven y te ayudo pon tu años aqui")
+year =int(input("ingresa tu años: "))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    resultado = " si el años el bisiesto"
+else:
+    resultado = "no el años no es bisiesto"
+print(f"el años {year} {resultado}")    

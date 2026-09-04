@@ -1,0 +1,13 @@
+print("Hola soy tu calculadora si quieres saber cuanto puedes poner en descuento su venta ve y consultame")
+
+precio = float (input("ingresa el precio del producto: "))
+
+descuento = float(input("ingresa el porcentaje de descuento que quieres aplicar: "))
+
+resultado = precio - (precio * (descuento / 100)) 
+print(f"el precio final del producto es: {resultado}")
+
+if descuento > 50:
+    print("¡Este es un buen descuento!")
+else:
+    print("El descuento no es muy alto.") # ayuda a saber si es un buen descuento 

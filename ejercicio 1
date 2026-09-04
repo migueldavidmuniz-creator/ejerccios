@@ -1,0 +1,27 @@
+import numbers 
+
+
+print("hola buenas soy la calculadora, resuelvo operaciones basicas")
+numbers_1 = float(input("Ingrese el primer número:")) # type: ignore
+numbers_2 = float(input("Ingrese el segundo número:")) # type: ignore
+operacion = input("Ingrese la operación (+, -, *, /): ")
+
+if operacion == "+":
+    resultado = numbers_1 + numbers_2
+    print("El resultado de la operación es:", resultado)
+elif operacion == "-":
+    resultado = numbers_1 - numbers_2
+    print("El resultado de la operación es:", resultado)
+elif operacion == "*":
+    resultado = numbers_1 * numbers_2
+    print("El resultado de la operación es:", resultado)
+elif operacion == "/":
+    if numbers_2 != 0:
+        resultado = numbers_1 / numbers_2
+        print("El resultado de la operación es:", resultado)
+    else:
+        print("Error: No se puede dividir entre cero.")
+        resultado = None
+
+if resultado is not None:
+    print("El resultado de la operación es:", resultado)

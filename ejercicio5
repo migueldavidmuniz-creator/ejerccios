@@ -1,0 +1,7 @@
+print("indicame un numero y te ayudo a identificar es mayor al otro")
+number1 = float(input("ingresa tu primer numero: "))
+number2 = float(input("ingresa tu segundo numero: "))
+if number1 > number2:
+    print("el primer numero es mayor que el segundo")
+elif number1 < number2:
+    print("el segundo numero es mayor que el primero")

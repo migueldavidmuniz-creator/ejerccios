@@ -1,0 +1,6 @@
+print("Hola mundo soy , tu asitente basico de idetificacion de numeros par o impar")
+numbers = float(input(" por favor igresa tu numero para idetificar si es par o impar: "))
+if numbers % 2== 0: # si el numero es de residuo 0 es par , de esta maneras lo que como residuo cero son impares
+    print("tu numero es par")
+else:
+    print("tu numero es impar")

@@ -1,0 +1,5 @@
+print("Hola, dime una temperatura en grados Celsius: y te hago el favor de convertirla a grados Fahrenheit")
+celsius = float(input(" Por aqui ingresa tu temperatura en grados celisus: "))
+fahrenheit = (celsius * 9/5) + 32
+resultado= fahrenheit
+print("gracias por tu espera aqui esta tu resultados de temperatura en grados Fahrenheit:", fahrenheit) # conviente la temperatura celsius en grados Fahrenheit

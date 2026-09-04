@@ -1,0 +1,10 @@
+print("hola quieres saber cuanto segundos")
+
+horas = float(input( " indica tu hora :"))
+
+minutos = float(input("indica tus minutos:"))
+
+segundo = float(input("indica tus segundo:" ))
+
+Total_segundo = horas * 3600 + minutos * 60 + segundo
+print(f"la duracion total es de {Total_segundo}segundos.")

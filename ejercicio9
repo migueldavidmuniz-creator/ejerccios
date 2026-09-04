@@ -1,0 +1,10 @@
+print(" Soy tu asitente basico de calculo de promedio de notas , por favor ingresa tus datos para poder calcular tu promedio")
+
+nota1 = float(input("ingresa tu primer nota: " )) # type: ignore
+
+nota2 = float(input("ingresa tu segunda nota : " )) # type: ignore 
+
+nota3 = float(input(" ingresa tu tercera nota : " )) # type: ignore
+
+promedio = (nota1 + nota2 + nota3) / 3
+print(f"tu promedio estudiantils es : {promedio:.2f}")
